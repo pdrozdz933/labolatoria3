@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: rgb(53, 179, 196);
+}
+p{
+    color: yellow;
+    background-color: indigo;
+}
+h2{
+    
+    color: khaki;
+    
+}
+
+#par1{
+    color: aqua;
+}
+.zielone_tlo{
+    background-color: crimson;
+}
+
+p,h2{
+    margin: 20px;
+}
