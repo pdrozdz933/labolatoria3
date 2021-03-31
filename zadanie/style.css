@@ -1,0 +1,53 @@
+body{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(tlo.png) ;
+
+}
+
+section{ 
+    width: 1200px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+
+#logo{
+    margin: auto;
+    width: 1200px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+#under_logo{
+    margin: auto;
+    width: 1200px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: small;
+
+    
+}
+
+#kolaż{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    background-image: url(\zdjecia\1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
