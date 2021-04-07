@@ -50,4 +50,5 @@ section{
     background-position: center center;
     background-size: cover;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
