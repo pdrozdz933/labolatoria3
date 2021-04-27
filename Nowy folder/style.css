@@ -18,8 +18,12 @@ body{
     align-items: center;
     margin: auto;
     
-    
-}   
+} 
+
+#menu:hover{
+    height: 500px;
+}
+
 
 
 
@@ -116,6 +120,10 @@ button{
     margin-top: 35px;
     padding: 0;
     background-color: white;
+}
+button:hover
+{
+ background-color: #999;
 }
 #b1{
     margin-right: 5px;
