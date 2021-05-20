@@ -1,59 +1,39 @@
-#logo{
-    margin-top: 20px;
+body{
+    width: 100%;
     background-color: white;
+    margin: 0 auto;
 }
-div{
-    background-color: orange;
+
+header{
+    width: 100%;
+    height: 180px;
     position: absolute;
-    margin-top: 60px;
+    background-color: white;
+    
+    
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+}
+
+
+#logo{
+    margin-right: 200px;
 
 }
 
 a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-
-#a1{
-    left: 500px;
-    background-color: orange;
-    width:200px;
-    font-size:40px;
-    font-family: Arial, Helvetica, sans-serif;
-  
+#p1,#p2,#p3,#p4{
+    margin-top: 70px;
+    margin-left: 100px;
     
-}
-
-#a2{
-    left: 700px;
-    background-color: orange;
-    width: 400px;
-    font-size:40px;
-    font-family: Arial, Helvetica, sans-serif;
     
-}
-
-#a3{
-    left: 1050px;
-    background-color: orange;
-    width: 250px;
-    font-size:40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#a4{
-    left: 1300px;
-    background-color: orange;
-    width: 200px;
-    font-size:40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#a5{
-    left: 1500px;
-    background-color: orange;
-    width: 500px;
-    font-size:40px;
-    font-family: Arial, Helvetica, sans-serif;
 }
