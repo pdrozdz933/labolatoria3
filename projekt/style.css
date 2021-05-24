@@ -146,7 +146,7 @@ a {
     
 }
 
-#b2 {
+#stopka {
   height: 3.5em;
   background-color: goldenrod;
   text-align: center;
@@ -241,58 +241,43 @@ a {
 .komody2{
     display: flex;
     margin-top: 100px;
-    margin-left: 50px;
+    
     
 }
 
 #k6 img{
-    height: 300px;
+    height: 330px;
     
 }
 
 #k7 img{
-    height: 300px;
-    margin-left: 130px;
+    height: 330px;
+    
 }
 
 #k8 img{
-    height: 300px;
-    margin-left: 160px;
+    height: 330px;
+    
 }
 
 #k9 img{
-    height: 300px;
-    margin-left: 160px;
+    height: 330px;
+    
 }
 
 #k10 img{
-    height: 300px;
-    margin-left: 160px;
+    height: 330px;
+    
 }
 
 #k6,#k7,#k8,#k9,#k10{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    margin: 60px;
 }
 
 
-
-#k7 p{
-    padding-left: 120px;
-}
-
-#k8 p{
-    padding-left: 150px;
-}
-
-#k9 p{
-    padding-left: 150px;
-}
-
-#k10 p{
-    padding-left: 150px;
-}
 
 #banerk3{
     height: 50px;
@@ -311,31 +296,134 @@ a {
 .komody3{
     display: flex;
     margin-top: 100px;
-    margin-left: 50px;
+    
     
 }
 
 #k11 img{
-    height: 320px;
+    height: 350px;
     
 }
 
 #k12 img{
-    height: 320px;
-    margin-left: 150px;
+    height: 350px;
+    
 }
 
 #k13 img{
-    height: 320px;
-    margin-left: 150px;
+    height: 350px;
+    
 }
 
 #k14 img{
-    height: 320px;
-    margin-left: 150px;
+    height: 350px;
+    
 }
 
 #k15 img{
-    height: 320px;
-    margin-left: 150px;
+    height: 350px;
+    
+}
+
+#k11,#k12,#k13,#k14,#k15{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin:70px;
+    
+}
+
+#banerb{
+    height: 50px;
+    background-color: goldenrod;
+    text-align: center;  
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+#banerb p{
+    padding-top: 10px;
+}
+
+.biurka{
+    display: flex;
+    margin-top: 100px;
+      
+}
+
+#b1 img{
+    height: 350px;
+    
+}
+
+#b2 img{
+    height: 350px;
+    
+}
+
+#b3 img{
+    height: 350px;
+    
+}
+
+#b4 img{
+    height: 350px;
+    
+}
+
+#b1,#b2,#b3,#b4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin:0;
+    
+}
+
+#banerb2{
+    height: 50px;
+    background-color: goldenrod;
+    text-align: center;  
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+#banerb2 p{
+    padding-top: 10px;
+}
+
+.biurka2{
+    display: flex;
+    margin-top: 100px;
+      
+}
+
+#b5 img{
+    height: 300px;
+    
+}
+
+#b6 img{
+    height: 300px;
+    
+}
+
+#b7 img{
+    height: 300px;
+    
+}
+
+#b8 img{
+    height: 300px;
+    
+}
+
+
+#b5,#b6,#b7,#b8{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin:10px;
+    
 }
