@@ -1,96 +1,341 @@
-body{
-    width: 100%;
-    background-color: white;
-    margin: 0 auto;
+body {
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 180px;
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+}
+
+#logo {
+  padding-top: 0.6em;
+  padding-right: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+#p1,
+#p2,
+#p3,
+#p4,
+#p5 {
+  margin-top: 75px;
+  margin-left: 100px;
+}
+
+#baner {
+  background-image: url("../projekt/baner1.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  height: 55em;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#mb {
+  margin: 0 auto;
+  font-size: 3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+.onas1 {
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#eko img {
+  height: 7em;
+  margin-left: 6em;
+  border: 2px solid goldenrod;
+  border-radius: 30%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+#eko:hoover{
     
 }
 
-header{
-    width: 100%;
-    height: 180px;
-    background-color: white;
-    
+.onas2 {
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#zero img{
+    height: 8em;
+    margin-left: 6em;
+    margin-top: 0.6em;
+    border: 2px solid goldenrod;
+    border-radius: 30%;
+    padding: 0.2em;
+}
+
+.onas3 {
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  
+}
+
+#dostawa img{
+    height: 8em;
+    margin-left: 6em;
+    margin-top: 0.6em;
+    border: 2px solid goldenrod;
+    border-radius: 30%;
+    padding: 0.3em;
+}
+
+#mb {
+  margin: 0;
+  background-color: goldenrod;
+}
+
+
+
+#blok1,
+#blok2,
+#blok3{
+  border: 2px solid black;
+  border-radius: 2%;
+  margin: 40px;
+  width: 800px;
+  font-size: 0.5em;
+  text-align: justify center;
+  padding: 0.3em;
+}
+
+#blok1{
+    padding-top: 2.5em;
+}
+
+#blok2{
+    padding-top: 2em;
+}
+
+#blok3{
+    padding-top: 3em;
+        
     
 }
 
-.nav{
-    display: flex;
-    
+#b2 {
+  height: 3.5em;
+  background-color: goldenrod;
+  text-align: center;
 }
 
-
-#logo{
-    padding-top: .6em;
-    padding-right: 3em;
-
+#copy {
+  background-color: goldenrod;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+#banerk{
+    height: 50px;
+    background-color: goldenrod;
+    text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
 }
-#p1,#p2,#p3,#p4,#p5{
-    margin-top: 75px;
+
+#banerk p{
+    padding-top: 10px;
+}
+.komody{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+
+#k1 img{
+    height: 300px;
+    
+}
+
+#k2 img{
+    height: 300px;
     margin-left: 100px;
-    
-    
 }
 
-
-#baner{
-    background-image: url("../projekt/baner1.jpg");
-    background-position: center;
-    background-size: 100% 100%;
-    height: 55em;
-    background-repeat: no-repeat;
-    width: 100%;  
-    margin: 0 auto; 
-     
+#k3 img{
+    height: 300px;
+    margin-left: 100px;
 }
 
-#mb{
-    margin: 0 auto;
-    font-size: 3em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+#k4 img{
+    height: 300px;
+    margin-left: 100px;
 }
-.onas{
-    
-    margin: 0 auto;
-    background-color: white;
+
+#k5 img{
+    height: 300px;
+    margin-left: 100px;
+}
+
+#k1,#k2,#k3,#k4,#k5{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
     font-weight: bold;
 }
 
-#mb{
-    margin: 0;
+#k2 p{
+    padding-left: 120px;
+}
+
+#k3 p{
+    padding-left: 120px;
+}
+
+#k4 p{
+    padding-left: 120px;
+}
+
+#k5 p{
+    padding-left: 120px;
+}
+
+#banerk2{
+    height: 50px;
     background-color: goldenrod;
-   
-
+    text-align: center;  
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-top: 70px;
 }
 
-#eko{
-    position: right;
+#banerk2 p{
+    padding-top: 10px;
+}
+
+.komody2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
     
 }
 
-#blok1,#blok2,#blok3{
-    border: 1px solid black;
-    border-radius: 3% ;
-    margin: 40px;
-    width: 800px;
-    font-size: 0.5em;
-    text-align: justify;
-    padding: 0.3em;
+#k6 img{
+    height: 300px;
     
 }
 
-#b2{
+#k7 img{
+    height: 300px;
+    margin-left: 130px;
+}
+
+#k8 img{
+    height: 300px;
+    margin-left: 160px;
+}
+
+#k9 img{
+    height: 300px;
+    margin-left: 160px;
+}
+
+#k10 img{
+    height: 300px;
+    margin-left: 160px;
+}
+
+#k6,#k7,#k8,#k9,#k10{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+
+#k7 p{
+    padding-left: 120px;
+}
+
+#k8 p{
+    padding-left: 150px;
+}
+
+#k9 p{
+    padding-left: 150px;
+}
+
+#k10 p{
+    padding-left: 150px;
+}
+
+#banerk3{
+    height: 50px;
+    background-color: goldenrod;
+    text-align: center;  
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-top: 70px;
+}
+
+#banerk3 p{
+    padding-top: 10px;
+}
+
+.komody3{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
     
-    width: 100%;
+}
+
+#k11 img{
+    height: 320px;
+    
+}
+
+#k12 img{
+    height: 320px;
+    margin-left: 150px;
+}
+
+#k13 img{
+    height: 320px;
+    margin-left: 150px;
+}
+
+#k14 img{
+    height: 320px;
+    margin-left: 150px;
+}
+
+#k15 img{
+    height: 320px;
+    margin-left: 150px;
 }
