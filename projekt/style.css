@@ -6,7 +6,7 @@ body {
 
 header {
   width: 100%;
-  height: 180px;
+  height: 11.25em;
   background-color: white;
 }
 
@@ -17,6 +17,11 @@ header {
 #logo {
   padding-top: 1em;
   padding-right: 16em;
+  
+}
+
+#logo img{
+    height: 7em;
 }
 
 a {
@@ -24,7 +29,7 @@ a {
   color: black;
   font-weight: bold;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: x-large;
+  font-size: 1.5em;
   
   
 }
@@ -36,13 +41,13 @@ a {
 #p4,
 #p5,
 #p6 {
-  margin-top: 75px;
-  margin-left: 100px;
+  margin-top: 4.6em;
+  margin-left: 6.25em;
 }
 
 #p1 a:hover{
     border-radius: 10%;
-    height: 50px;
+    height: 3.1em;
     background-color: goldenrod;
 }
 #baner {
@@ -60,7 +65,7 @@ a {
   font-size: 3em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-  height: 170px;
+  height: 3.8em;
 }
 .onas1 {
   display: flex;
@@ -76,7 +81,7 @@ a {
 #eko img {
   height: 7em;
   margin-left: 6em;
-  border: 2px solid goldenrod;
+  border: 0.1em solid goldenrod;
   border-radius: 30%;
   padding: 0.5em;
   margin-top: 0.7em;
@@ -98,7 +103,7 @@ a {
     height: 8em;
     margin-left: 6em;
     margin-top: 0.6em;
-    border: 2px solid goldenrod;
+    border: 0.1em solid goldenrod;
     border-radius: 30%;
     padding: 0.2em;
 }
@@ -111,7 +116,7 @@ a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3em;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 3em;
   
 }
 
@@ -119,7 +124,7 @@ a {
     height: 8em;
     margin-left: 6em;
     margin-top: 0.6em;
-    border: 2px solid goldenrod;
+    border: 0.1em solid goldenrod;
     border-radius: 30%;
     padding: 0.3em;
 }
@@ -134,10 +139,10 @@ a {
 #blok1,
 #blok2,
 #blok3{
-  border: 2px solid black;
+  border: 0.1em solid black;
   border-radius: 2%;
-  margin: 40px;
-  width: 800px;
+  margin: 2.5em;
+  width: 35em;
   font-size: 0.5em;
   text-align: justify center;
   padding: 0.3em;
@@ -177,7 +182,7 @@ a {
 }
 
 #banerk{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
@@ -186,105 +191,91 @@ a {
 }
 
 #banerk p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 .komody{
     display: flex;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 5em;
+    
     
 }
 
 #k1 img{
-    height: 300px;
+    height: 18.75em;
     
 }
 
 #k2 img{
-    height: 300px;
-    margin-left: 100px;
+    height: 18.75em;
+    
 }
 
 #k3 img{
-    height: 300px;
-    margin-left: 100px;
+    height: 18.75em;
+    
 }
 
 #k4 img{
-    height: 300px;
-    margin-left: 100px;
+    height: 18.75em;
+    
 }
 
 #k5 img{
-    height: 300px;
-    margin-left: 100px;
+    height: 18.75em;
+    
 }
 
 #k1,#k2,#k3,#k4,#k5{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    margin: 3.125em;
 }
 
-#k2 p{
-    padding-left: 120px;
-}
-
-#k3 p{
-    padding-left: 120px;
-}
-
-#k4 p{
-    padding-left: 120px;
-}
-
-#k5 p{
-    padding-left: 120px;
-}
 
 #banerk2{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 70px;
+    margin-top: 2.5em;
 }
 
 #banerk2 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .komody2{
     display: flex;
-    margin-top: 100px;
+    margin-top: 5em;
     
     
 }
 
 #k6 img{
-    height: 330px;
+    height: 21em;
     
 }
 
 #k7 img{
-    height: 330px;
+    height: 21em;
     
 }
 
 #k8 img{
-    height: 330px;
+    height: 21em;
     
 }
 
 #k9 img{
-    height: 330px;
+    height: 21em;
     
 }
 
 #k10 img{
-    height: 330px;
+    height: 21em;
     
 }
 
@@ -292,56 +283,55 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin: 50px;
-    border: 2px solid goldenrod;
-    padding: 10px;
+    margin: 4em;
 }
 
 
 
 #banerk3{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 70px;
+    margin-top: 2.8em;
 }
 
 #banerk3 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .komody3{
     display: flex;
-    margin-top: 100px;
+    margin-top: 5em;
+    margin-bottom: 3em;
     
     
 }
 
 #k11 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #k12 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #k13 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #k14 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #k15 img{
-    height: 350px;
+    height: 22em;
     
 }
 
@@ -349,12 +339,12 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:70px;
+    margin:4.375em;
     
 }
 
 #banerb{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
@@ -363,32 +353,32 @@ a {
 }
 
 #banerb p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .biurka{
     display: flex;
-    margin-top: 100px;
+    margin-top: 6.25em;
       
 }
 
 #b1 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #b2 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #b3 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #b4 img{
-    height: 350px;
+    height: 22em;
     
 }
 
@@ -401,42 +391,42 @@ a {
 }
 
 #banerb2{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 #banerb2 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .biurka2{
     display: flex;
-    margin-top: 100px;
+    margin-top: 6.25em;
       
 }
 
 #b5 img{
-    height: 300px;
+    height: 18.75em;
     
 }
 
 #b6 img{
-    height: 300px;
+    height: 18.75em;
     
 }
 
 #b7 img{
-    height: 300px;
+    height: 18.75em;
     
 }
 
 #b8 img{
-    height: 300px;
+    height: 18.75em;
     
 }
 
@@ -445,47 +435,48 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:10px;
+    margin:0.4em;
     
 }
 
 #banerb3,#baners{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 #banerb3 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .biurka3{
     display: flex;
-    margin-top: 100px;
+    margin-top: 4em;
+    margin-bottom: 3em;
       
 }
 
 #b9 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #b10 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #b11 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #b12 img{
-    height: 350px;
+    height: 22em;
     
 }
 
@@ -494,51 +485,51 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:60px;
+    margin:3.75em;
     
 }
 
 #baners{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 #baners p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .szafy{
     display: flex;
-    margin-top: 100px;
+    margin-top: 5em;
       
 }
 
 #s1 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s2 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s3 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s4 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s5 img{
-    height: 370px;
+    height: 21em;
     
 }
 
@@ -546,51 +537,51 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:40px;
+    margin:3.2em;
     
 }
 
 #baners2{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 40px;
+    margin-top: 3.2em;
 }
 #baners2 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .szafy2{
     display: flex;
-    margin-top: 80px;
+    margin-top: 5em;
       
 }
 
 #s6 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s7 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s8 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s9 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s10 img{
-    height: 370px;
+    height: 21em;
     
 }
 
@@ -598,47 +589,47 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:65px;
+    margin:4em;
     
 }
 
 
 #baners3{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 40px;
+    margin-top: 3.2em;
 }
 #baners3 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .szafy3{
     display: flex;
-    margin-top: 10px;
+    margin-top: 0.4em;
       
 }
 
 #s11 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s12 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s13 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #s14 img{
-    height: 370px;
+    height: 21em;
     
 }
 
@@ -647,48 +638,48 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:90px;
+    margin:5.6em;
     
     
 }
 
 #banerr1{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 40px;
+    margin-top: 3.2em;
 }
 
 #banerr1 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .regaly{
     display: flex;
-    margin-top: 80px;
+    margin-top: 5em;
       
 }
 
 #r1 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #r2 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #r3 img{
-    height: 350px;
+    height: 22em;
     
 }
 
 #r4 img{
-    height: 350px;
+    height: 22em;
     
 }
 
@@ -698,49 +689,49 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:60px;
+    margin:3.5em;
     
     
 }
 
 #banerr2{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 40px;
+    margin-top: 3.2em;
 }
 
 #banerr2 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .regaly2{
     display: flex;
-    margin-top: 80px;
+    margin-top: 5em;
     
       
 }
 
 #r6 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #r7 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #r8 img{
-    height: 370px;
+    height: 21em;
     
 }
 
 #r9 img{
-    height: 370px;
+    height: 21em;
     
 }
 
@@ -750,49 +741,49 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:60px;
+    margin:3.5em;
     
     
 }
 
 #banerr3{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 40px;
+    margin-top: 3.2em;
 }
 
 #banerr3 p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .regaly3{
     display: flex;
-    margin-top: 20px;
+    margin-top: 1.25em;
     
       
 }
 
 #r10 img{
-    height: 400px;
+    height: 25em;
     
 }
 
 #r11 img{
-    height: 400px;
+    height: 25em;
     
 }
 
 #r12 img{
-    height: 400px;
+    height: 25em;
     
 }
 
 #r13 img{
-    height: 400px;
+    height: 25em;
     
 }
 
@@ -802,27 +793,27 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin:120px;
+    margin:7.5em;
     
     
 }
 
 .kontakt{
-    height: 50px;
+    height: 2.1em;
     background-color: goldenrod;
     text-align: center;  
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    margin-top: 40px;
+    margin-top: 2em;
 }
 
 .kontakt p{
-    padding-top: 10px;
+    padding-top: 0.4em;
 }
 
 .info{
-    margin-top: 50px;
+    margin-top: 2.1em;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -832,6 +823,6 @@ a {
 }
 
 .dane{
-    margin-top: 100px;
-    margin-right: 300px;
+    margin-top: 2.5em;
+    margin-right: 18.75em;
 }
