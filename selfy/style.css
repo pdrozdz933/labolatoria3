@@ -1,0 +1,14 @@
+body{
+    background-color: #acadad;
+    margin: 0 auto;
+}
+.container{
+    
+    background-image: url(masthead@2x.jpg);
+    
+
+}
+.navbar
+{
+    display: grid;
+}
