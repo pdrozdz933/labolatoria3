@@ -5,43 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meblowapaczka</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
-    <header>
-        <div class="nav">
-          <div id="logo">
-            <a href="glowna.html"
-              ><img src="logo.png" alt="logo">
-            </a>
-          </div>
+    <div class="navbar">
+      <div class="container">
+        <a href="glowna.html">
+          <img id="mobile" class="mobile-logo" src="img/logo.png" alt="logo">
+        </a>
 
-          <div id="p1">
-            <a href="glowna.html">Strona główna</a>
-          </div>
-  
-          <div id="p2">
-            <a href="komody.html">Komody</a>
-          </div>
-  
-          <div id="p3">
-            <a href="biurka.html">Biurka</a>
-          </div>
-  
-          <div id="p4">
-            <a href="szafy.html">Szafy</a>
-          </div>
-  
-          <div id="p5">
-            <a href="regaly.html">Regały</a>
-          </div>
-  
-          <div id="p5">
-            <a href="kontakt.html">Kontakt</a>
+        <img class="mobile-menu" src="img/hamburger.svg" alt="hamburger">
+
+
+        <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.png" alt="exit">
+          <ul class="primary-nav">
+            <li><a href="glowna.html"></a>Strona główna</li>
+            <li><a href="komody.html"></a>Komody</li>
+            <li><a href="biurka.html"></a>Biurka</li>
+            <li><a href="szafy.html"></a>Szafy</li>
+            <li><a href="regały.html"></a>Regały</li>
+            <li><a href="kontakt.html"></a>Kontakt</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="baner">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">Najlepsze meble o jeden klik od Ciebie!</p>
+          <h1>Sprawdź naszą ofertę!</h1>
+          <div class="baner-button">
+            <a href="komody.html" class="primary-button">Klik!</a>
           </div>
         </div>
-    </header>
+      </div>
+
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="img/eko.png" alt="eko">
+            <blockquote>Tworzą go ludzie pełni pasji wspierani wieloletnim doświadczeniem
+              zaufanych dostawców. W swojej pracy stawiamy na ekologię i produkty
+              przyjazne środowisku naturalnemu, dlatego znajdziesz u nas między
+              innymi meble o niskiej zawartości formaldehydu produkowane na bazie
+              surowców pochodzących z legalnych źródeł, a także z wykorzystaniem
+              recyklingu.</blockquote>
+          </li>
+
+          <li>
+            <img src="img/zero.jpg" alt="eko">
+            <blockquote> Naszym celem jest dostarczenie Wam jak najlepszych jakościowo i
+              bezpiecznych produktów. Misją Meblowapaczka.pl jest popularyzowanie
+              prokonsumenckich postaw i świadomych wyborów. Nasza oferta składa się
+              z produktów skierowanych do bardzo wymagających odbiorców, którym
+              nieobce są wartości związane z ładem ekologicznym i filozofią “zero
+              waste - zero odpadów”. Chcemy uświadamiać, jak ważne jest pochodzenie
+              surowców, poszanowanie przyrody i zasobów naturalnych oraz
+              odpowiedzialność konsumencka.</blockquote>
+          </li>
+
+          <li>
+            <img src="img/dostawa.png" alt="eko">
+            <blockquote>Meblowapaczka.pl to przyjazny sklep internetowy z praktycznymi,
+              nowoczesnymi i bezpiecznymi meblami. Pracujemy tylko ze sprawdzonymi,
+              cieszącymi się doskonałą renomą dostawcami, którzy posiadają niezbędne
+              certyfikaty i atesty potwierdzające jakość ich produktów. Wszystkie
+              produkty dostępne są na magazynie, dzięki czemu gwarantujemy szybką
+              dostawę.</blockquote>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact-left">
+          <h2>Kontakt</h2>
+
+          <form action="">
+            <label for="imie">Imię</label>
+            <input type="text" id="name" name="name">
+          </br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </br>
+            <input type="submit" class="send-message" value="Wyślij">
+          </form>
+        </div>
+
+        <div class="contact-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.1378293434154!2d21.425550215895406!3d50.30801990549822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d6b064cdf07f7%3A0xf892e282e22f7bc8!2zV8WCYWR5c8WCYXdhIEphZ2llxYLFgnkgMjgsIDM5LTMwMCBNaWVsZWM!5e0!3m2!1spl!2spl!4v1622050432536!5m2!1spl!2spl" width="600" height="450" style="border:1px solid black;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+      </div>
+    </section>
 
 </body>
 </html>
