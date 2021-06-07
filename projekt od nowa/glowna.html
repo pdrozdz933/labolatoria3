@@ -15,13 +15,13 @@
           <img id="mobile" class="mobile-logo" src="img/logo.png" alt="logo">
         </a>
 
-        <img class="mobile-menu" src="img/hamburger.svg" alt="hamburger">
+        <img id="mobile-menu" class="mobile-menu-entry" src="img/hamburger.svg" alt="hamburger">
 
 
         <nav>
-          <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.png" alt="exit">
+          <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.png" style="height: 1em;" alt="exit">
           <ul class="primary-nav">
-            <li><a href="glowna.html"></a>Strona główna</li>
+            <li><a class="space" href="glowna.html"></a>Strona główna</li>
             <li><a href="komody.html"></a>Komody</li>
             <li><a href="biurka.html"></a>Biurka</li>
             <li><a href="szafy.html"></a>Szafy</li>
@@ -49,7 +49,7 @@
       <div class="container">
         <ul>
           <li>
-            <img src="img/eko.png" alt="eko">
+            <img src="img/eko.png" alt="eko" >
             <blockquote>Tworzą go ludzie pełni pasji wspierani wieloletnim doświadczeniem
               zaufanych dostawców. W swojej pracy stawiamy na ekologię i produkty
               przyjazne środowisku naturalnemu, dlatego znajdziesz u nas między
@@ -59,7 +59,7 @@
           </li>
 
           <li>
-            <img src="img/zero.jpg" alt="eko">
+            <img src="img/zero.jpg" alt="zero" >
             <blockquote> Naszym celem jest dostarczenie Wam jak najlepszych jakościowo i
               bezpiecznych produktów. Misją Meblowapaczka.pl jest popularyzowanie
               prokonsumenckich postaw i świadomych wyborów. Nasza oferta składa się
@@ -71,7 +71,7 @@
           </li>
 
           <li>
-            <img src="img/dostawa.png" alt="eko">
+            <img src="img/dostawa.png" alt="dostawa" >
             <blockquote>Meblowapaczka.pl to przyjazny sklep internetowy z praktycznymi,
               nowoczesnymi i bezpiecznymi meblami. Pracujemy tylko ze sprawdzonymi,
               cieszącymi się doskonałą renomą dostawcami, którzy posiadają niezbędne
@@ -106,6 +106,23 @@
 
       </div>
     </section>
+
+    
+
+    <script>
+
+      const mobileBtn = document.getElementById('mobile-menu')
+          nav = document.querySelector('nav')
+          mobileBtnExit = document.getElementById('mobile-exit')
+
+          mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn')
+          })
+
+          mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn')
+          })
+    </script>
 
 </body>
 </html>
