@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>szafy</title>
+    <link rel="stylesheet" href="css/regaly.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a href="glowna.html">
+          <img id="mobile" class="mobile-logo" src="img/logo.png" alt="logo" />
+        </a>
+
+        <img
+          id="mobile-menu"
+          class="mobile-menu-entry"
+          src="img/hamburger.svg"
+          alt="hamburger"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="img/exit.png"
+            style="height: 1em"
+            alt="exit"
+          />
+          <ul class="primary-nav">
+            <li><a class="space" href="glowna.html"></a>Strona główna</li>
+            <li><a href="komody.html"></a>Komody</li>
+            <li><a href="biurka.html"></a>Biurka</li>
+            <li><a href="szafy.html"></a>Szafy</li>
+            <li><a href="regaly.html"></a>Regały</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="banerr1">
+        <p>Regały Komorowe Malast</p>
+    </div>
+
+    <div class="regaly">
+        <div class="r1">
+            <img src="r1.png" alt="m3biel">
+            <p>Regał komorowy Malast Biel</p>
+        </div>
+
+        <div class="r2">
+            <img src="r2.png" alt="m3sonoma">
+            <p>Regał komorowy Malast Dąb Sonoma</p>
+        </div>
+
+       <div class="r3">
+           <img src="r4.png" alt="m3artisan">
+           <p>Regał komorowy Malast Dąb Artisan</p>
+       </div>
+
+       <div class="r4">
+        <img src="r5.png" alt="m3artisan">
+        <p>Regał komorowy Malast Czerń</p>
+       </div>
+
+    </div>
+
+    <div class="banerr2">
+        <p>Regały Schodkowe Asali</p>
+    </div>
+
+    <div class="regaly2">
+        <div class="r6">
+            <img src="r6.jpg" alt="m3biel">
+            <p>Regał schodkowy Asali Biel</p>
+        </div>
+
+        <div class="r7">
+            <img src="r7.jpg" alt="m3sonoma">
+            <p>Regał schodkowy Asali Dąb Sonoma</p>
+        </div>
+
+        <div class="r8">
+           <img src="r8.jpg" alt="m3wenge">
+           <p>Regał schodkowy Asali Wenge</p>
+       </div>
+
+       <div class="r9">
+           <img src="r9.jpg" alt="m3artisan">
+           <p>Regał schodkowy Asali Czerń</p>
+       </div>
+
+
+    </div>
+
+    <div id="banerr3">
+        <p>Regały Lemari R80</p>
+    </div>
+
+    <div class="regaly3">
+        <div class="r10">
+            <img src="r10.png" alt="m3biel">
+            <p>Regał Lemari R80 Biel</p>
+        </div>
+
+        <div class="r11">
+            <img src="r11.png" alt="m3sonoma">
+            <p>Regał Lemari R80 Dąb Sonoma</p>
+        </div>
+
+        <div class="r12">
+           <img src="r12.png" alt="m3wenge">
+           <p>Regał Lemari R80 Wenge</p>
+       </div>
+
+       <div class="r13">
+           <img src="r13.png" alt="m3artisan">
+           <p>Regał Lemari R80 Olcha</p>
+       </div>
+   
+
+    <div class="footer">
+      <img src="img/logo.png" alt="logo" />
+
+      <div class="copy">&copy;Meblowapaczka.pl Patryk Drożdż 2021</div>
+    </div>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-menu");
+      nav = document.querySelector("nav");
+      mobileBtnExit = document.getElementById("mobile-exit");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+
+      mobileBtnExit.addEventListener("click", () => {
+        nav.classList.remove("menu-btn");
+      });
+    </script>
+  </body>
+</html>
