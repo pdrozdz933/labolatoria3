@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>szafy</title>
+    <link rel="stylesheet" href="css/szafy.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a href="glowna.html">
+          <img id="mobile" class="mobile-logo" src="img/logo.png" alt="logo" />
+        </a>
+
+        <img
+          id="mobile-menu"
+          class="mobile-menu-entry"
+          src="img/hamburger.svg"
+          alt="hamburger"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="img/exit.png"
+            style="height: 1em"
+            alt="exit"
+          />
+          <ul class="primary-nav">
+            <li><a class="space" href="glowna.html"></a>Strona główna</li>
+            <li><a href="komody.html"></a>Komody</li>
+            <li><a href="biurka.html"></a>Biurka</li>
+            <li><a href="szafy.html"></a>Szafy</li>
+            <li><a href="regały.html"></a>Regały</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="baners">
+      <p>Szafy z lustrem Loro</p>
+    </div>
+
+    <div class="szafy">
+      <div class="container">
+        <div class="s1">
+          <img src="img/s1.jpg" alt="m3biel" />
+          <p>Szafa z lustrem Loro Biel</p>
+        </div>
+
+        <div class="s2">
+          <img src="img/s2.jpg" alt="m3sonoma" />
+          <p>Szafa z lustrem Loro Dąb Sonoma</p>
+        </div>
+
+        <div class="s3">
+          <img src="img/s3.jpg" alt="m3wenge" />
+          <p>Szafa z lustrem Loro Dąb Artisan</p>
+        </div>
+
+        <div class="s4">
+          <img src="img/s4.jpg" alt="m3artisan" />
+          <p>Szafa z lustrem Loro Wenge</p>
+        </div>
+
+        <div class="s5">
+          <img src="img/s5.jpg" alt="m3artisan" />
+          <p>Szafa z lustrem Loro Czerń</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="baners2">
+      <p>Szafy z lustrem Klambi</p>
+    </div>
+
+    <div class="szafy2">
+      <div class="container">
+        <div class="s6">
+          <img src="img/s6.png" alt="m3biel" />
+          <p>Szafa z lustrem Klambi 80CM Biel</p>
+        </div>
+
+        <div class="s7">
+          <img src="img/s7.png" alt="m3sonoma" />
+          <p>Szafa z lustrem Klambi 100CM Biel</p>
+        </div>
+
+        <div class="s8">
+          <img src="img/s8.png" alt="m3wenge" />
+          <p>Szafa z lustrem Klambi 160CM Biel</p>
+        </div>
+
+        <div class="s9">
+          <img src="img/s9.png" alt="m3artisan" />
+          <p>Szafa z lustrem Klambi 180CM Biel</p>
+        </div>
+
+        <div class="s10">
+          <img src="img/s10.png" alt="m3artisan" />
+          <p>Szafa z lustrem Klambi 200Cm Biel</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="baners3">
+      <p>Szafy z lustrem Skapis</p>
+    </div>
+    
+      <div class="szafy3">
+          <div class="container">
+               <div class="s11">
+          <img src="img/s11.png" alt="m3biel" />
+          <p>Szafa z lustrem Skapis 150CM Biel</p>
+        </div>
+
+        <div class="s13">
+          <img src="img/s13.png" alt="m3sonoma" />
+          <p>Szafa z lustrem Skapis 150CM Dąb Sonoma</p>
+        </div>
+
+        <div class="s12">
+          <img src="img/s12.png" alt="m3wenge" />
+          <p>Szafa z lustrem Skapis 175CM Biel</p>
+        </div>
+
+        <div class="s14">
+          <img src="img/s14.png" alt="m3wenge" />
+          <p>Szafa z lustrem Skapis 175CM Dąb Sonoma</p>
+        </div>
+          </div>
+       
+      </div>
+   
+
+    <div class="footer">
+      <img src="img/logo.png" alt="logo" />
+
+      <div class="copy">&copy;Meblowapaczka.pl Patryk Drożdż 2021</div>
+    </div>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-menu");
+      nav = document.querySelector("nav");
+      mobileBtnExit = document.getElementById("mobile-exit");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+
+      mobileBtnExit.addEventListener("click", () => {
+        nav.classList.remove("menu-btn");
+      });
+    </script>
+  </body>
+</html>

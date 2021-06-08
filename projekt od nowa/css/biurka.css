@@ -1,0 +1,303 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  display: none;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+}
+
+.navbar .mobile-logo {
+  height: 4em;
+}
+
+.navbar nav.menu-btn {
+  display: block;
+}
+
+.navbar nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: orange;
+  height: 100vh;
+  padding: 1em;
+}
+
+.navbar nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+.navbar nav li a {
+  display: block;
+  text-decoration: none;
+  padding: .5em;
+  font-size: 1.3em;
+}
+
+.navbar nav li:hover {
+  font-weight: bold;
+}
+
+.navbar .mobile-menu-exit {
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banerb1 {
+  background: goldenrod;
+  text-align: center;
+  height: 2.1em;
+  margin-top: -1em;
+  width: 100%;
+}
+
+.banerb1 p {
+  font-weight: bold;
+  padding-top: 0.4em;
+}
+
+.biurka .container {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.biurka img {
+  height: 17em;
+  margin-top: 2em;
+  margin-bottom: -1em;
+}
+
+.biurka p {
+  margin-bottom: 2em;
+}
+
+.banerb2 {
+  background: goldenrod;
+  text-align: center;
+  height: 2.1em;
+  margin-top: 5em;
+  width: 100%;
+}
+
+.banerb2 p {
+  font-weight: bold;
+  padding-top: 0.4em;
+}
+
+.biurka2 .container {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.biurka2 img {
+  height: 17em;
+  margin-top: 2em;
+}
+
+.biurka2 p {
+  margin-bottom: 2em;
+}
+
+.banerb3 {
+  background: goldenrod;
+  text-align: center;
+  height: 2.1em;
+  margin-top: 5em;
+  width: 100%;
+}
+
+.banerb3 p {
+  font-weight: bold;
+  padding-top: 0.4em;
+}
+
+.biurka3 .container {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.biurka3 img {
+  height: 19em;
+  margin-top: 2em;
+}
+
+.biurka3 p {
+  margin-bottom: 2em;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2em;
+  background: goldenrod;
+}
+
+.footer img {
+  height: 2em;
+  margin: 0;
+}
+
+.footer .copy {
+  font-size: 0.6em;
+  margin-top: 1.2em;
+  margin-left: 6em;
+  text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-menu-entry, .mobile-exit-exit {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav li a.space {
+    padding-left: 1em;
+  }
+  .navbar nav li a {
+    color: black;
+    font-weight: bold;
+    font-size: 5em;
+    padding: 0.15em 0.55em;
+    cursor: pointer;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+  .navbar nav li.a {
+    font-weight: bold;
+  }
+  .navbar nav img.mobile-menu-exit {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  .navbar nav {
+    float: left;
+    width: 100%;
+    background: none;
+  }
+  .biurka {
+    text-align: center;
+  }
+  .biurka .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2em;
+    text-align: center;
+  }
+  .biurka2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2em;
+    text-align: center;
+  }
+  .biurka2 .container .komoda1 .komoda2 {
+    margin: 2em;
+  }
+  .biurka3 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .navbar nav {
+    float: left;
+    width: 100%;
+    background: none;
+  }
+  .biurka .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2em;
+    text-align: center;
+  }
+  .biurka .container .komoda1 .komoda2 {
+    margin: 2em;
+  }
+  .biurka2 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2em;
+    text-align: center;
+  }
+  .biurka3 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2em;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=biurka.css.map */

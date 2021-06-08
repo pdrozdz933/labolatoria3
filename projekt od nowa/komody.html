@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komody</title>
+    <link rel="stylesheet" href="css/komody.css">
+
+    
+  
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+          <a href="glowna.html">
+            <img id="mobile" class="mobile-logo" src="img/logo.png" alt="logo">
+          </a>
+  
+          <img id="mobile-menu" class="mobile-menu-entry" src="img/hamburger.svg" alt="hamburger">
+  
+  
+          <nav>
+            <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.png" style="height: 1em;" alt="exit">
+            <ul class="primary-nav">
+              <li><a class="space" href="glowna.html"></a>Strona główna</li>
+              <li><a href="komody.html"></a>Komody</li>
+              <li><a href="biurka.html"></a>Biurka</li>
+              <li><a href="szafy.html"></a>Szafy</li>
+              <li><a href="regały.html"></a>Regały</li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+
+      <div class="k1">
+          <p>Komody 3-szufladowe</p>
+      </div>
+
+      <div class="komody">
+          <div class="container">
+            <div class="komoda1">
+            <img src="img/k1.png" alt="m3biel">
+            <p>Komoda Malwin M3 Biel</p>
+           </div>
+
+        <div class="komoda2">
+            <img src="img/k2.png" alt="m3sonoma">
+            <p>Komoda Malwin M3 Dąb Sonoma</p>
+        </div>
+
+        <div class="komoda3">
+           <img src="img/k3.png" alt="m3wenge">
+           <p>Komoda Malwin M3 Wenge</p>
+       </div>
+
+       <div class="komoda4">
+           <img src="img/k4.png" alt="m3artisan">
+           <p>Komoda Malwin M3 Dąb artisan</p>
+       </div>
+
+       <div class="komoda5">
+           <img src="img/k5.png" alt="m3czerń">
+           <p>Komoda Malwin M3 Czerń</p>
+       </div>  
+      </div>
+
+      <div class="k2">
+        <p>Komody 4-szufladowe</p>
+    </div>
+
+    <div class="komody2">
+        <div class="container">
+          <div class="komoda6">
+          <img src="img/k6.png" alt="m4biel">
+          <p>Komoda Malwin M4 Biel</p>
+      </div>
+
+      <div class="komoda7">
+          <img src="img/k7.png" alt="m4sonoma">
+          <p>Komoda Malwin M4 Dąb Sonoma</p>
+      </div>
+
+      <div class="komoda8">
+         <img src="img/k8.png" alt="m4wenge">
+         <p>Komoda Malwin M4 Wenge</p>
+     </div>
+
+     <div class="komoda9">
+         <img src="img/k9.png" alt="m4artisan">
+         <p>Komoda Malwin M4 Dąb artisan</p>
+     </div>
+
+     <div class="komoda10">
+         <img src="img/k10.png" alt="m4czerń">
+         <p>Komoda Malwin M4 Czerń</p>
+     </div>  
+    </div>
+
+    <div class="k3">
+        <p>Komody 5-szufladowe</p>
+    </div>
+
+    <div class="komody3">
+        <div class="container">
+          <div class="komoda11">
+          <img src="img/k11.png" alt="m5biel">
+          <p>Komoda Malwin M5 Biel</p>
+      </div>
+
+      <div class="komoda12">
+          <img src="img/k12.png" alt="m5sonoma">
+          <p>Komoda Malwin M5 Dąb Sonoma</p>
+      </div>
+
+      <div class="komoda13">
+         <img src="img/k13.png" alt="m5wenge">
+         <p>Komoda Malwin M5 Wenge</p>
+     </div>
+
+     <div class="komoda14">
+         <img src="img/k14.png" alt="m5artisan">
+         <p>Komoda Malwin M5 Dąb artisan</p>
+     </div>
+
+     <div class="komoda15">
+         <img src="img/k15.png" alt="m5czerń">
+         <p>Komoda Malwin M5 Czerń</p>
+     </div>  
+    </div>
+
+    <div class="footer">
+        <img src="img/logo.png" alt="logo">
+
+        <div class="copy">&copy;Meblowapaczka.pl Patryk Drożdż 2021</div>
+    </div>
+        
+      <script>
+
+        const mobileBtn = document.getElementById('mobile-menu')
+            nav = document.querySelector('nav')
+            mobileBtnExit = document.getElementById('mobile-exit')
+  
+            mobileBtn.addEventListener('click', () => {
+              nav.classList.add('menu-btn')
+            })
+  
+            mobileBtnExit.addEventListener('click', () => {
+              nav.classList.remove('menu-btn')
+            })
+      </script>
+</body>
+</html>
