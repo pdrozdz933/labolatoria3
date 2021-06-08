@@ -1,7 +1,7 @@
 body {
   background-color: #f2f2f2;
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav {
 .navbar nav li a {
   display: block;
   text-decoration: none;
-  padding: .5em;
+  padding: 0.5em;
   font-size: 1.3em;
 }
 
@@ -49,7 +49,7 @@ nav {
 
 .navbar .mobile-menu-exit {
   float: right;
-  margin: .5em;
+  margin: 0.5em;
   cursor: pointer;
 }
 
@@ -123,7 +123,7 @@ ul {
 }
 
 .szafy2 img {
-  height: 19em;
+  height: 17em;
   margin-top: 2em;
 }
 
@@ -178,8 +178,9 @@ ul {
   text-align: center;
 }
 
-@media only screen and (min-width: 769px) {
-  .mobile-menu-entry, .mobile-exit-exit {
+@media only screen and (min-width: 768px) {
+  .mobile-menu-entry,
+  .mobile-exit-exit {
     display: none;
   }
   .navbar .container {
@@ -192,31 +193,36 @@ ul {
             justify-content: unset;
   }
   .navbar nav {
+    margin-right: 5em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
     width: 100%;
-    padding: 0;
   }
   .navbar nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+  .navbar nav li {
+    padding-right: 2em;
+    margin-top: -1em;
+  }
   .navbar nav li a.space {
     padding-left: 1em;
   }
   .navbar nav li a {
+    padding-right: 0em;
     color: black;
     font-weight: bold;
-    font-size: 5em;
-    padding: 0.15em 0.55em;
+    font-size: 1em;
+    padding-top: 1.5em;
     cursor: pointer;
   }
   .navbar nav ul.primary-nav {
@@ -232,7 +238,6 @@ ul {
 
 @media only screen and (min-width: 1080px) {
   .container {
-    width: 1080px;
     margin: 0 auto;
   }
   .navbar nav {
@@ -242,6 +247,9 @@ ul {
   }
   .szafy {
     text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .szafy .container {
     display: -webkit-box;
@@ -249,6 +257,9 @@ ul {
     display: flex;
     margin: 2em;
     text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .szafy2 .container {
     display: -webkit-box;
@@ -256,6 +267,9 @@ ul {
     display: flex;
     margin: 2em;
     text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .szafy2 .container .komoda1 .komoda2 {
     margin: 2em;
@@ -266,6 +280,9 @@ ul {
     display: flex;
     margin: 2em;
     text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
