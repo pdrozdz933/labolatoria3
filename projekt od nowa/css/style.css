@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar .mobile-logo {
-  height: 4em;
+  height: 5em;
 }
 
 .navbar nav.menu-btn {
@@ -27,7 +27,7 @@ nav {
   width: 66%;
   right: 0;
   top: 0;
-  background: orange;
+  background: #d8a649;
   height: 100vh;
   padding: 1em;
 }
@@ -91,13 +91,16 @@ section {
 }
 
 .left-col .subhead {
-  color: black;
-  font-size: 1.5em;
+  color: orange;
+  font-size: 2em;
   font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .left-col h1 {
   font-size: 2.5em;
+  color: orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .left-col .primary-button {

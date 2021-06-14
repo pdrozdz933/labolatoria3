@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar .mobile-logo {
-  height: 4em;
+  height: 5em;
 }
 
 .navbar nav.menu-btn {
@@ -40,7 +40,7 @@ nav {
   display: block;
   text-decoration: none;
   padding: 0.5em;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 .navbar nav li:hover {

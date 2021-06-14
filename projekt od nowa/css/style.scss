@@ -12,7 +12,7 @@ body {
     background-color: white;
     padding: 1em;
     .mobile-logo {
-      height: 4em;
+      height: 5em;
     }
     nav.menu-btn {
       display: block;
@@ -24,7 +24,7 @@ body {
       width: 66%;
       right: 0;
       top: 0;
-      background: orange;
+      background: rgb(216, 166, 73);
       height: 100vh;
       padding: 1em;
   
@@ -89,13 +89,21 @@ body {
   
   .left-col {
     .subhead {
-      color: black;
-      font-size: 1.5em;
-      font-weight: bold;
+      color: orange;
+      font-size: 2em;
+      font-weight:bold;
+      text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+        
+     
     }
   
     h1 {
       font-size: 2.5em;
+      color: orange;
+      text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+      
     }
   
     .primary-button {
