@@ -24,7 +24,7 @@ body {
       width: 66%;
       right: 0;
       top: 0;
-      background: orange;
+      background: rgb(216, 166, 73);
       height: 100vh;
       padding: 1em;
   
@@ -38,6 +38,7 @@ body {
           text-decoration: none;
           padding: 0.5em;
           font-size: 2em;
+          margin-top: .5em;
         }
   
         &:hover {

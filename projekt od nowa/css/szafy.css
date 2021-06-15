@@ -27,7 +27,7 @@ nav {
   width: 66%;
   right: 0;
   top: 0;
-  background: orange;
+  background: #d8a649;
   height: 100vh;
   padding: 1em;
 }
@@ -41,6 +41,7 @@ nav {
   text-decoration: none;
   padding: 0.5em;
   font-size: 1.3em;
+  margin-top: .5em;
 }
 
 .navbar nav li:hover {
