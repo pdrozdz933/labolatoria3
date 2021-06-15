@@ -18,7 +18,7 @@ section{
     align-items: center;
 }
 
-#logo{
+.logo{
     margin: auto;
     width: 1200px;
     height: 70px;
@@ -28,10 +28,9 @@ section{
     
 }
 
-#under_logo{
+.under_logo{
     margin: auto;
-    width: 1200px;
-    height: 70px;
+    
     justify-content: center;
     display: flex;
     align-items: center;
@@ -41,14 +40,60 @@ section{
     
 }
 
-#kolaż{
-    width: 1200px;
-    height: 900px;
+.under_logo p{
+    margin-top: -1em;
+}
+
+.kolaż{
+    
     background-color: white;
-    background-image: url(\zdjecia\1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.photo
+{
+    padding: 5px ;
     flex-wrap: wrap-reverse;
+}
+
+.about
+{
+    text-align: center;
+    color: #ccc;
+    font-size: 1.5em;
+}
+
+hr{
+    margin-top: -1em;
+    width: 500px;
+    color: black;
+    opacity: 0.2;
+}
+
+.text{
+    
+    width: 500px;
+    margin-left: 350px;
+    text-align: justify;
+    line-height: 1.5em;
+    color: rgb(172, 161, 161);
+ 
+}
+
+.underline{
+    text-decoration: aqua;
+}
+
+.mail{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 3em;
+    color: rgb(104, 102, 102);
 }
