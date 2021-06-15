@@ -3,7 +3,7 @@ body{
     background-color: aqua;
 }
 
-#animacja{
+.animacja{
     text-align: center;
     transform:scaleY(50deg)
 }
