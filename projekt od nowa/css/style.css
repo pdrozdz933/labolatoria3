@@ -23,7 +23,7 @@ nav {
 
 .navbar nav {
   position: fixed;
-  z-index: 999;
+  z-index: 777;
   width: 66%;
   right: 0;
   top: 0;
@@ -34,6 +34,8 @@ nav {
 
 .navbar nav ul.primary-nav {
   margin-top: 5em;
+  float: right;
+  text-align: end;
 }
 
 .navbar nav li a {
@@ -43,7 +45,7 @@ nav {
   font-size: 1.3em;
 }
 
-.navbar nav li:hover {
+.navbar nav li a :hover {
   font-weight: bold;
 }
 
@@ -123,9 +125,7 @@ section {
 }
 
 .about-us li blockquote {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: justify;
 }
 
 .about-us li img {
@@ -167,7 +167,6 @@ input[type="submit"] {
   margin-bottom: 0.5em;
   border-radius: 5em;
   padding: 0.8em 2em;
-  width: unset;
   cursor: pointer;
 }
 
