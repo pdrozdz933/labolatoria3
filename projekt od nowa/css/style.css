@@ -23,16 +23,15 @@ nav {
 
 .navbar nav {
   position: fixed;
-  z-index: 777;
-  width: 66%;
+  width: 60%;
   right: 0;
   top: 0;
   background: #d8a649;
-  height: 100vh;
+  height: 100%;
   padding: 1em;
 }
 
-.navbar nav ul.primary-nav {
+.navbar nav ul.first-nav {
   margin-top: 5em;
   float: right;
   text-align: end;
@@ -46,7 +45,7 @@ nav {
   margin-top: .5em;
 }
 
-.navbar nav li a :hover {
+.navbar nav li a:hover {
   font-weight: bold;
 }
 
@@ -60,7 +59,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  place-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navbar .mobile-menu {
@@ -106,7 +107,7 @@ section {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.left-col .primary-button {
+.left-col .first-button {
   background-color: goldenrod;
   color: white;
   padding: 0.6em 1.3em;
@@ -161,7 +162,7 @@ input {
   font-size: 2em;
 }
 
-input[type="submit"] {
+.submit {
   background: gold;
   font-weight: bold;
   font-size: 1.3em;
@@ -180,15 +181,6 @@ iframe {
   .mobile-menu-entry,
   .mobile-exit-exit {
     display: none;
-  }
-  .navbar .container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
   }
   .navbar nav {
     margin-right: 5em;
@@ -223,7 +215,7 @@ iframe {
     padding-top: 1.5em;
     cursor: pointer;
   }
-  .navbar nav ul.primary-nav {
+  .navbar nav ul.first-nav {
     margin: 0;
   }
   .navbar nav li.a {

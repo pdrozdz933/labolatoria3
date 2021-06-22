@@ -23,24 +23,25 @@ nav {
 
 .navbar nav {
   position: fixed;
-  z-index: 999;
   width: 66%;
   right: 0;
   top: 0;
   background: #d8a649;
-  height: 100vh;
+  height: 100%;
   padding: 1em;
 }
 
-.navbar nav ul.primary-nav {
+.navbar nav ul.first-nav {
   margin-top: 5em;
+  float: right;
+  text-align: end;
 }
 
 .navbar nav li a {
   display: block;
   text-decoration: none;
   padding: 0.5em;
-  font-size: 2em;
+  font-size: 1.3em;
   margin-top: .5em;
 }
 
@@ -178,19 +179,10 @@ ul {
   text-align: center;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .mobile-menu-entry,
   .mobile-exit-exit {
     display: none;
-  }
-  .navbar .container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
   }
   .navbar nav {
     margin-right: 5em;
@@ -225,7 +217,7 @@ ul {
     padding-top: 1.5em;
     cursor: pointer;
   }
-  .navbar nav ul.primary-nav {
+  .navbar nav ul.first-nav {
     margin: 0;
   }
   .navbar nav li.a {

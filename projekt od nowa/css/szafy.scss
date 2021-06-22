@@ -20,16 +20,18 @@ body {
   
     nav {
       position: fixed;
-      z-index: 999;
+      
       width: 66%;
       right: 0;
       top: 0;
       background: rgb(216, 166, 73);
-      height: 100vh;
+      height: 100%;
       padding: 1em;
   
-      ul.primary-nav {
+      ul.first-nav {
         margin-top: 5em;
+        float: right;
+        text-align: end;
       }
   
       li {
@@ -186,11 +188,7 @@ body {
         display: none;
       }
     
-      .navbar .container {
-        display: grid;
-        grid-template-columns: 180px auto;
-        justify-content: unset;
-      }
+    
     
       .navbar nav {
         margin-right: 5em;
@@ -220,7 +218,7 @@ body {
           }
         }
     
-        ul.primary-nav {
+        ul.first-nav {
           margin: 0;
         }
     
