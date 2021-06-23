@@ -1,312 +1,298 @@
 body {
-    background-color: #f2f2f2;
-    margin: 0;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  display: none;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1em;
+  .mobile-logo {
+    height: 5em;
   }
-  
+  nav.menu-btn {
+    display: block;
+  }
+
   nav {
+    position: fixed;
+    width: 60%;
+    right: 0;
+    top: 0;
+    background: rgb(216, 166, 73);
+    height: 100%;
+    padding: 1em;
+
+    ul.first-nav {
+      margin-top: 5em;
+      float: right;
+      text-align: end;
+    }
+
+    li {
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 0.5em;
+        font-size: 1.3em;
+        margin-top: 0.5em;
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .mobile-menu-exit {
+    float: right;
+    margin: 0.5em;
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-menu {
+    cursor: pointer;
+  }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.baner {
+  background-image: url("../img/baner4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  padding: 5em 2em;
+}
+
+.baner {
+  text-align: center;
+}
+
+.left-col {
+  .subhead {
+    color: orange;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .first-button {
+    background-color: goldenrod;
+    color: white;
+    padding: 0.6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+  }
+}
+
+.about-us {
+  li {
+    text-align: center;
+    background: goldenrod;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+
+    blockquote {
+      text-align: justify;
+    }
+
+    img {
+      width: 5em;
+      height: 5em;
+      border: 5px solid gold;
+      border-radius: 50%;
+      margin-top: -4.5em;
+    }
+  }
+}
+
+.contact {
+  background: goldenrod;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gold;
+  box-sizing: border-box;
+}
+.contact-left {
+  h2 {
+    font-size: 2em;
+  }
+}
+
+.submit {
+  background: gold;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  border-radius: 5em;
+  padding: 0.8em 2em;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu-entry,
+  .mobile-exit-exit {
     display: none;
   }
-  
-  .navbar {
-    
-    background-color: white;
-    padding: 1em;
-    .mobile-logo {
-      height: 5em;
-    }
-    nav.menu-btn {
-      display: block;
-    }
-  
-    nav {
-      position: fixed;
-      width: 60%;
-      right: 0;
-      top: 0;
-      background: rgb(216, 166, 73);
-      height: 100%;
-      padding: 1em;
-      
-  
-      ul.first-nav {
-        margin-top: 5em;
-        float: right;
-        text-align: end;
-        
-      }
-  
-      li {
-        a {
-          display: block;
-          text-decoration: none;
-          padding: 0.5em;
-          font-size: 1.3em;
-          margin-top: .5em;
-          
-          &:hover {
-            font-weight: bold;
-          }
-        }
-  
-      
-      }
-    }
-  
-    .mobile-menu-exit {
-      float: right;
-      margin: 0.5em;
-      cursor: pointer;
-    }
-  
-    .container {
+
+  .navbar nav {
+    margin-right: 5em;
+    justify-content: flex-end;
+    display: flex;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    ul {
       display: flex;
-      justify-content: space-between;
     }
-  
-    .mobile-menu {
-      cursor: pointer;
-    }
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .baner {
-    background-image: url("../img/baner4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  section {
-    padding: 5em 2em;
-  }
-  
-  .baner {
-    text-align: center;
-  }
-  
-  .left-col {
-    .subhead {
-      color: orange;
-      font-size: 2em;
-      font-weight:bold;
-      text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-        
-     
-    }
-  
-    h1 {
-      font-size: 2.5em;
-      color: orange;
-      text-shadow: -1px 0 black, 0 1px black,
-      1px 0 black, 0 -1px black
-      
-    }
-  
-    .first-button {
-      background-color: goldenrod;
-      color: white;
-      padding: 0.6em 1.3em;
-      font-size: 1.4em;
-      border-radius: 5em;
-      font-weight: bold;
-      display: inline-block;
-    }
-  }
-  
-  .about-us {
+
     li {
-      text-align: center;
-      background: goldenrod;
-      padding: 2em 1em;
-      width: 80%;
-      margin: 0 auto 5em auto;
-      border-radius: 1em;
-  
-      blockquote {
-        text-align: justify;
+      padding-right: 2em;
+      margin-top: -1em;
+      a.space {
+        padding-left: 1em;
       }
-  
-      img {
-        width: 5em;
-        height: 5em;
-        border: 5px solid gold;
-        border-radius: 50%;
-        margin-top: -4.5em;
-      }
-    }
-  }
-  
-  .contact {
-    background: goldenrod;
-  }
-  
-  label {
-    display: block;
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-  }
-  
-  input {
-    width: 100%;
-    padding: 0.8em;
-    margin-bottom: 1em;
-    border-radius: 0.3em;
-    border: 1px solid gold;
-    box-sizing: border-box;
-  }
-  .contact-left {
-    h2 {
-      font-size: 2em;
-    }
-  }
-  
-  .submit {
-    background: gold;
-    font-weight: bold;
-    font-size: 1.3em;
-    margin-bottom: 0.5em;
-    border-radius: 5em;
-    padding: 0.8em 2em;
-    cursor: pointer;
-  }
-  
-  iframe {
-    width: 100%;
-    height: 300px;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    .mobile-menu-entry,
-    .mobile-exit-exit {
-      display: none;
-    }
-  
-  
-    .navbar nav {
-      margin-right: 5em;
-      justify-content: flex-end;
-      display: flex;
-      background: none;
-      position: unset;
-      height: auto;
-      width: 100%;
-      ul {
-        display: flex;
-      }
-  
-      li {
-        padding-right: 2em;
-        margin-top:-1em;
-        a.space {
-          padding-left: 1em;
-        }
-        a {
-          padding-right: 0em;
-          color: black;
-          font-weight: bold;
-          font-size: 1em;
-          padding-top: 1.5em;
-          cursor: pointer;
-        }
-      }
-  
-      ul.first-nav {
-        margin: 0;
-      }
-  
-      li.a {
+      a {
+        padding-right: 0em;
+        color: black;
         font-weight: bold;
-      }
-  
-      img.mobile-menu-exit {
-        display: none;
-      }
-    }
-  }
-  
-  @media only screen and (min-width: 1080px) {
-    .container {
-      margin: 0;
-    }
-  
-    section {
-      padding: 10em 4em;
-    }
-  
-    .baner .container {
-      display: flex;
-      justify-content: space-between;
-      text-align: left;
-  
-      .left-col {
-        margin: 0.1em 3em 0 0.1em;
-  
-        h1 {
-          font-size: 3em;
-          width: 90%;
-        }
+        font-size: 1em;
+        padding-top: 1.5em;
+        cursor: pointer;
       }
     }
 
-   
-  
-    .navbar nav {
-      float: left;
-      width: 100%;
-      background: none;
+    ul.first-nav {
+      margin: 0;
     }
-  
-    .about-us ul {
+
+    li.a {
+      font-weight: bold;
+    }
+
+    img.mobile-menu-exit {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    margin: 0;
+  }
+
+  section {
+    padding: 10em 4em;
+  }
+
+  .baner .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    .left-col {
+      margin: 0.1em 3em 0 0.1em;
+
+      h1 {
+        font-size: 3em;
+        width: 90%;
+      }
+    }
+  }
+
+  .navbar nav {
+    float: left;
+    width: 100%;
+    background: none;
+  }
+
+  .about-us ul {
+    display: flex;
+
+    li {
+      margin: 0 1em;
+    }
+  }
+
+  .contact {
+    position: relative;
+
+    .container {
       display: flex;
-  
-      li {
-        margin: 0 1em;
-      }
     }
-  
-    .contact {
-      position: relative;
-  
-      .container {
-        display: flex;
-      }
-    }
-  
-    .contact-right {
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 45%;
+  }
+
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+
+    iframe {
       height: 100%;
-  
-      iframe {
-        height: 100%;
-      }
     }
   }
-  
-  @media only screen and (min-width: 1450px) {
-    .baner .container {
-      display: flex;
-      justify-content: space-between;
-      text-align: left;
-    }
-  
-    .navbar nav {
-      float: left;
-      width: 100%;
-      background: none;
-    }
+}
+
+@media only screen and (min-width: 1450px) {
+  .baner .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
   }
-  
+
+  .navbar nav {
+    float: left;
+    width: 100%;
+    background: none;
+  }
+}

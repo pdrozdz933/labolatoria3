@@ -22,7 +22,6 @@ nav {
 
   nav {
     position: fixed;
-    
     width: 66%;
     right: 0;
     top: 0;
@@ -42,7 +41,7 @@ nav {
         text-decoration: none;
         padding: 0.5em;
         font-size: 1.3em;
-        margin-top: .5em;
+        margin-top: 0.5em;
       }
 
       &:hover {
@@ -190,8 +189,6 @@ ul {
     display: none;
   }
 
-  
-
   .navbar nav {
     margin-right: 5em;
     justify-content: flex-end;
@@ -206,8 +203,8 @@ ul {
     }
 
     li {
-        padding-right: 2em;
-        margin-top: -1em;
+      padding-right: 2em;
+      margin-top: -1em;
       a.space {
         padding-left: 1em;
       }
@@ -247,22 +244,18 @@ ul {
   }
 
   .regaly {
-    
-
     .container {
-        display: flex;
-        justify-content: space-between;
+      display: flex;
+      justify-content: space-between;
     }
   }
 
   .regaly2 {
     .container {
-        display: flex;
-        margin: 2em;
-        text-align: center;
-        justify-content: space-between;
-
-      
+      display: flex;
+      margin: 2em;
+      text-align: center;
+      justify-content: space-between;
     }
   }
 
@@ -288,8 +281,6 @@ ul {
       display: flex;
       margin: 2em;
       text-align: center;
-
-      
     }
   }
 
