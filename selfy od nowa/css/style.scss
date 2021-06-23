@@ -32,12 +32,10 @@ body{
     padding-top: 60px;
     padding-bottom: 45px;
 
-    .logo {
-        grid-area: logo;
-    }
+   
 
     .menu {
-        grid-area: menu;
+        grid-area: nav;
         justify-items: right;
     }
 
@@ -112,6 +110,11 @@ body{
            text-decoration: none;
            color:#3c4a52;
            font-weight:bold;
+        }
+
+        a:hover{
+            color: goldenrod;
+            transition: 0.2s;
         }
     }
       

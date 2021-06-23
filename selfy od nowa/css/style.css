@@ -40,12 +40,11 @@ body {
   padding-bottom: 45px;
 }
 
-.nav .logo {
-  grid-area: logo;
-}
-
 .nav .menu {
-  grid-area: menu;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-area: nav;
   justify-items: right;
 }
 
@@ -126,6 +125,12 @@ body {
   text-decoration: none;
   color: #3c4a52;
   font-weight: bold;
+}
+
+.left-text p a:hover {
+  color: goldenrod;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .left-text .text {
